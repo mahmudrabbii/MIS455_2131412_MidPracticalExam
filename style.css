@@ -81,13 +81,3 @@ header, footer {
    background-color: #b2b0b0;
    border-radius: 5px;
 }
-
-.flex-container{
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
-}
-.contact{
-    align-items: center;
-}
