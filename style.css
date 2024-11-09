@@ -53,3 +53,12 @@ header, footer {
     height: 400px;
     width: 400px;
 }
+/* Grid Container for Product Page */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
