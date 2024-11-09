@@ -1,0 +1,55 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', 'Raleway';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    
+}
+
+.navbar ul li a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+/* Flex Container for Home Page */
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+/* Flex Container for images */
+.flex-container img {
+
+    height: 400px;
+    width: 400px;
+}
